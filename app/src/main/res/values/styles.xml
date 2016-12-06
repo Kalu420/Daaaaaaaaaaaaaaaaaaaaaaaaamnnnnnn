@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="CustomActionBarTheme"
+        parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:actionBarTabTextStyle">@style/MyActionBarTabText</item>
+        <item name="android:actionMenuTextColor">@color/action</item>
+        <item name="actionBarSize">100dp</item>
+        <item name="android:actionBarSize">48dip</item>
+
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarTabTextStyle">@style/MyActionBarTabText</item>
+        <item name="actionMenuTextColor">@color/action1</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse" >
+        <item name="android:background">@color/action</item>
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+        <item name="android:subtitleTextStyle">@style/MyActionBarSubTitleText</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@color/action</item>
+        <item name="titleTextStyle">@style/MyActionBarTitleText</item>
+        <item name="subtitleTextStyle">@style/MyActionBarSubTitleText</item>
+    </style>
+
+    <!-- ActionBar title text -->
+    <style name="MyActionBarTitleText"
+        parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/action1</item>
+        <item name="android:textSize">25dp</item>
+    </style>
+
+    <!-- ActionBar Subtitle text -->
+    <style name="MyActionBarSubTitleText"
+        parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">19dp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <!-- ActionBar tabs text -->
+    <style name="MyActionBarTabText"
+        parent="@style/Widget.AppCompat.ActionBar.TabText">
+        <item name="android:textColor">@color/action1</item>
+    </style>
+
+</resources>

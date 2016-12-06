@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@drawable/listamainsijenka"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="New Text"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#008080"
+        android:gravity="top"
+        android:id="@+id/listText"
+        android:background="#00000000"
+
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Istorija"
+        android:id="@+id/listButton"
+        android:layout_gravity="right"
+        android:fontFamily="sans-serif"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAllCaps="false"
+        android:background="@drawable/my_selector1"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+        android:textSize="17dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="+38267321321"
+        android:id="@+id/listText1"
+        android:textSize="15dp"
+        android:textColor="#008080"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@+id/listText"
+        android:gravity="bottom"
+        android:padding="3dp"
+        android:layout_marginLeft="25dp"
+
+        />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/whitecell"
+        android:layout_below="@+id/listText"
+        android:layout_alignBottom="@+id/listText1"
+         />
+</RelativeLayout>

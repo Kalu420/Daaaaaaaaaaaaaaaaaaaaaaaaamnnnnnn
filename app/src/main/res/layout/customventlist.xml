@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_selector"
+    android:descendantFocusability="blocksDescendants"
+    >
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="New Text"
+            android:textSize="25dp"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="30dp"
+            android:textColor="#008080"
+            android:layout_marginTop="20dp"
+            android:id="@+id/ventlistText"
+            android:background="@drawable/listaventilasijenka"
+            android:gravity="center_vertical"
+
+            />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:text=""
+            android:id="@+id/buttonVentOff"
+            android:background="@drawable/buttonoff"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="25dp"
+
+            />
+
+
+</RelativeLayout>

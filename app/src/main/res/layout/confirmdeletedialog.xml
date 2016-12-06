@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Potvrdi brisanje uređjaja"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="@color/action"
+        />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="5dp"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Otkaži"
+            android:id="@+id/canceldelete"
+            android:layout_weight="1"
+            android:background="@drawable/myselector3"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            android:id="@+id/okdelete"
+            android:layout_weight="1"
+            android:background="@drawable/myselector3"
+            />
+
+    </TableRow>
+
+</LinearLayout>

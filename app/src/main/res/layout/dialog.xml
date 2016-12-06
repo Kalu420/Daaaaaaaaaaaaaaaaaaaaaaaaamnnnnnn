@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/action"
+        android:textSize="30dp"
+        android:text="Konfiguracija ventila"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        />
+
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editT1"
+        android:hint="Start1 "
+        android:privateImeOptions="nm"
+        android:inputType="time"
+        android:layout_weight="1"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editT2"
+        android:hint="Trajanje1"
+        android:privateImeOptions="nm"
+        android:inputType="time"
+        android:layout_weight="1"
+        />
+</TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editT3"
+        android:hint="Start2 "
+        android:privateImeOptions="nm"
+        android:inputType="time"
+        android:layout_weight="1"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editT4"
+        android:hint="Trajanje2"
+        android:privateImeOptions="nm"
+        android:inputType="time"
+        android:layout_weight="1"
+        />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editT5"
+        android:hint="Start3 "
+        android:privateImeOptions="nm"
+        android:inputType="time"
+        android:layout_weight="1"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editT6"
+        android:hint="Trajanje3"
+        android:privateImeOptions="nm"
+        android:inputType="time"
+        android:layout_weight="1"
+
+        />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editT7"
+        android:hint="Start 4"
+        android:privateImeOptions="nm"
+        android:inputType="time"
+        android:layout_weight="1"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editT8"
+        android:hint="Trajanje4"
+        android:privateImeOptions="nm"
+        android:inputType="time"
+        android:layout_weight="1"
+        />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editT9"
+        android:hint="Start5  "
+        android:privateImeOptions="nm"
+        android:inputType="time"
+        android:layout_weight="1"
+        android:imeOptions="actionNext"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editT10"
+        android:hint="Trajanje5"
+        android:privateImeOptions="nm"
+        android:inputType="time"
+        android:layout_weight="1"
+        android:imeOptions="actionNext"
+
+        />
+    </TableRow>
+
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/tableRow">
+
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn1"
+            android:background="@drawable/my_selector1"
+            android:text="Cancel"
+            android:layout_marginRight="2dp"
+            />
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/my_selector1"
+            android:id="@+id/btn2"
+            android:text="OK"
+            android:layout_marginLeft="2dp"
+            />
+
+    </TableRow>
+
+
+
+
+
+
+
+
+</LinearLayout>
